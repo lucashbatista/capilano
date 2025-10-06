@@ -1,0 +1,51 @@
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.section1 {
+    font-family: monospace;
+}
+
+
+.customer-reviews {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  }
+  .review-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #ddd;
+  }
+  .review-item:last-child {
+    border-bottom: none;
+  }
+  .review-text {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  .reviewer-name {
+    font-weight: bold;
+    color: #555;
+  }
+  .star-rating {
+    margin-top: 5px;
+  }
+  .star {
+    font-size: 20px;
+    color: #ccc;
+  }
+  .star.filled {
+    color: #ffc107; /* Gold color for filled stars */
+  }
